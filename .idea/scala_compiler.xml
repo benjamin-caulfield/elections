@@ -2,5 +2,13 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="elected" />
+    <profile name="sbt 2" modules="elections">
+      <option name="compileOrder" value="JavaThenScala" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="--explain-types" />
+      </parameters>
+    </profile>
   </component>
 </project>
